@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible{
     display: flex;
 }
 
@@ -41,4 +41,29 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experiences{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+     
+}
+.full-stack{
+    border-left: 5px solid orange;
+    padding: 30px;
+    box-shadow: 5px 7px 40px gray;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    display: block;
+    width: 50%;
+}
+.baby{
+    border-left: 5px solid blue;
+    padding: 30px;
+    box-shadow: 5px 7px 40px gray;
+    margin-right: 80px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    display: block;
+    width: 50%;
 }
